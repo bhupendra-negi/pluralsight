@@ -1,0 +1,26 @@
+<!DOCTYPE  HTML>
+<html lang="en" ng-app>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title> Hello Angular
+  </title>
+</head>
+
+<body>
+
+  <h1 ng-controller="HelloWorldCntrl">
+    Welcome to {{text}}
+  </h1>
+
+  <script src="lib/angular.min.js">
+  </script>
+  <script>
+    function HelloWorldCntrl($scope) {
+      $scope.text = "Angular world";
+    }
+  </script>
+</body>
+
+</html>
