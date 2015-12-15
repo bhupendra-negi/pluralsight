@@ -1,5 +1,5 @@
-'use strict';
+
 /* http://docs.angularjs.org/#!angular.service */
 
 // Declare app level module which depends on filters, and services
-var eventsApp = angular.module('eventsApp', []);
+  eventApp = angular.module('eventsApp',[]);
